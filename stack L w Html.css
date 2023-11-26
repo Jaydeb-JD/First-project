@@ -1,0 +1,44 @@
+ /* font-family: 'Lobster', cursive; */
+* {
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: darkslategray;
+    color: white;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar a {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 12px;
+    text-decoration: none;
+}
+.main-menu {
+    position: relative;
+    display: inline;
+}
+.menu-content {
+    position: absolute;
+    background-color: grey;
+    top: 30px;
+    right: 0px;
+    min-width: 100px;
+    display: none;
+}
+.menu-content a {
+    background-color: green;
+    padding: 10px;
+    margin: 5px 0px;
+    color: white;
+    display: block;
+}
+.main-menu:hover .menu-content {
+display: block;
+}
+.menu-content a:hover {
+    color: white;
+}
